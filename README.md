@@ -1,5 +1,7 @@
 # 📄 Ask your PDF: a RAG app with hybrid search
 
+**Live demo:** https://bigbrainpart-ask-your-pdf.streamlit.app/
+
 Upload a PDF and ask questions about it. Answers come only from the document, with page citations.
 
 Built step by step to learn Retrieval-Augmented Generation (RAG): LangChain, FAISS, sentence-transformers, BM25, Gemini and Streamlit.

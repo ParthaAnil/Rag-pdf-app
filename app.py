@@ -25,6 +25,7 @@ st.title("📄 Ask your PDF")
 if not os.getenv("GOOGLE_API_KEY"):
     st.error("No GOOGLE_API_KEY found. Add it to .env (local) or to the app's Secrets (Streamlit Cloud).")
     st.stop()
+st.caption("Don't upload private documents: text from your PDF is sent to Google Gemini (free tier).")
 
 
 @st.cache_resource

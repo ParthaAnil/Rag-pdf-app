@@ -1,3 +1,7 @@
+# --- PyTorch CPU-only: the free server has no GPU, so skip the multi-GB GPU libraries ---
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1+cpu
+
 # --- LangChain pieces we import directly ---
 langchain-core==1.6.10
 langchain-community==0.4.2

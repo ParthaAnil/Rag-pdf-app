@@ -1,0 +1,26 @@
+# --- LangChain pieces we import directly ---
+langchain-core==1.6.10
+langchain-community==0.4.2
+langchain-text-splitters==1.1.3
+
+# --- Reading the PDF ---
+pypdf==6.20.1
+
+# --- Embeddings: turn text into vectors (runs locally, free) ---
+sentence-transformers==6.1.0
+langchain-huggingface==1.2.3
+
+# --- Vector store: fast similarity search over those vectors ---
+faiss-cpu==1.15.1
+
+# --- Keyword search (BM25) for hybrid search ---
+rank-bm25==0.2.2
+
+# --- The LLM that writes the final answer (Gemini free tier) ---
+langchain-google-genai==4.4.1
+
+# --- Loads your API key from a .env file so it never goes in code ---
+python-dotenv==1.2.4
+
+# --- Web app: upload a PDF + chat box in the browser ---
+streamlit==1.65.0
